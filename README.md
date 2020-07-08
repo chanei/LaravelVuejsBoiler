@@ -3,7 +3,7 @@
 
 ## Setup procedure
 - Create new laravel project. If you are not sure on how to, check the laravel documentation
-- Install the laravel frontend scaffolding. Follow the steps below
+- Install the laravel frontend scaffolding. Follow the steps below:
 - ```composer require laravel/ui```
 - ```php artisan ui vue```
 - ```npm install```
@@ -11,13 +11,12 @@
 - ```npm install vue-router vue-axios --save``` to be able to use the vue routes and axios to perform http requests
 
 ## Using this boiler
-- To use this boiler plate or cloning this repository, follow these steps
+<p>To use this boiler plate or cloning this repository, follow these steps:</p>
+
 - Clone / Download repository
 - ```composer install```
 - ```composer update```
 - ```npm install```
-- ```npm run dev``` or ```npm run watch```
-- ```npm install vue-router vue-axios --save```
 
 ### Update the laravel routes (web.php)
 <pre><code>
