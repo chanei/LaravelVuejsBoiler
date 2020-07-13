@@ -2,11 +2,10 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 import App from './components/App.vue';
-// import VueRouter from 'vue-router';
-
-// Vue.use(VueRouter);
+import router from "./routes";
 
 const app = new Vue({
     el: '#app',
+    router,
     render: h => h(App),
 });
