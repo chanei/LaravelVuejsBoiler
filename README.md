@@ -17,6 +17,8 @@
 - ```composer install```
 - ```composer update```
 - ```npm install```
+- Copy ```.env.example``` details and paste them into a new file called ```.env```
+- ```php artisan key:generate```
 
 ### Update the laravel routes (web.php)
 <pre><code>
