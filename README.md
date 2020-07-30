@@ -34,6 +34,13 @@ Route::get('{any}', function () {
 ### Preparing for production
 - Run ```npm run production```
 - Clear cache ```php artisan cache:clear```
+- not the ```.version();``` in the ```webpack.mix.js```. Helps to avoid browser caching in production
+- or you can specify versioning for only production .i.e.
+<pre><code>
+if (mix.inProduction()) {
+    mix.version();
+}
+</code></pre>
 
 ## Using Docker with this boilerplate.
 - Copy and paste the Dockerfile in the project root folder into your project root.
