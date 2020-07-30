@@ -31,6 +31,9 @@ Route::get('{any}', function () {
 - To fetch data from the laravel application, write the routes in the ```api.php```
 - The javascript files are found under ```resources/js```. This is where you will define your components, routes and app.js main file.
 
+### Preparing for production
+- Run ```npm run production```
+- Clear cache ```php artisan cache:clear```
 
 ## Using Docker with this boilerplate.
 - Copy and paste the Dockerfile in the project root folder into your project root.
